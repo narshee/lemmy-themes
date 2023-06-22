@@ -515,10 +515,6 @@ mark,
   max-width: 100%;
   height: auto;
 }
-.img-fluid:hover,
-.img-fluid:active {
-  filter: opacity(40%);
-}
 
 .img-thumbnail {
   padding: 0.25rem;
