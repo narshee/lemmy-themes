@@ -3769,6 +3769,7 @@ input[type="button"].btn-block {
 
   border: 1px solid #54595d;
 
+  border-radius: 0;
   appearance: none;
   background-color: #f6f9fc;
 }
