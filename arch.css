@@ -3323,6 +3323,7 @@ input[type="button"].btn-block {
   position: relative;
   display: inline-flex;
   vertical-align: middle;
+  background-color: #f6f9fc;
 }
 .btn-group > .btn,
 .btn-group-vertical > .btn {
@@ -3523,7 +3524,7 @@ input[type="button"].btn-block {
 
   background-color: #f8f9fa;
 
-  border: 1px solid #a2a9b1;
+  border: 1px solid #54595d;
 
 }
 .input-group-text input[type="radio"],
