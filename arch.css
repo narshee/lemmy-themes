@@ -472,7 +472,7 @@ mark,
 .mark {
   padding: 0.2em;
   background-color: #dfd;
-  border: 1px solid #bdb;
+  border: 1px solid #bdb !important;
 }
 
 .list-unstyled {
@@ -514,6 +514,10 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+.img-fluid:hover,
+.img-fluid:active {
+  filter: opacity(40%);
 }
 
 .img-thumbnail {
