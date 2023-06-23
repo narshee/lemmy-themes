@@ -1938,10 +1938,11 @@ pre code {
 
   background-color: #f8f9fa;
 
-  border-color: #3366cc;
+  border-color: #0077bb;
   outline: 0;
 
-  box-shadow: inset 0 0 0 1px #3366cc,inset 0 0 0 2px #ffffff
+  box-shadow: inset 0 0 0 1px #0077bb;
+
 }
 .form-control::placeholder {
   color: #888;
@@ -2413,7 +2414,7 @@ textarea.form-control.is-invalid {
   display: inline-block;
   font-weight: 400;
 
-  color: #202122;
+  color: #0077bb;
   text-align: center;
   vertical-align: middle;
   user-select: none;
@@ -2433,7 +2434,6 @@ textarea.form-control.is-invalid {
 }
 .btn:hover {
 
-  color: #666;
   text-decoration: none;
 }
 .btn:focus,
@@ -2606,8 +2606,9 @@ fieldset:disabled a.btn {
 
 .btn-warning {
   color: #fff;
-  background-color: #f39c12;
-  border-color: #f39c12;
+
+  background-color: #f26522;
+  border-color: #f26522;
 }
 .btn-warning:hover {
   color: #fff;
@@ -3005,14 +3006,7 @@ fieldset:disabled a.btn {
   color: #0077bb;
   text-decoration: none;
 }
-.btn-link:hover {
-  color: #999999;
-  text-decoration: underline;
-}
-.btn-link:focus,
-.btn-link.focus {
-  text-decoration: underline;
-}
+
 .btn-link:disabled,
 .btn-link.disabled {
   color: #888;
@@ -3534,6 +3528,10 @@ input[type="button"].btn-block {
 .input-group-text input[type="radio"],
 .input-group-text input[type="checkbox"] {
   margin-top: 0;
+}
+.input-group-text:hover,
+.input-group-text:focus {
+  background-color: #d8d8d8;
 }
 
 .input-group-lg > .form-control:not(textarea),
@@ -7698,6 +7696,7 @@ button.bg-dark:focus {
 
 .p-2 {
   padding: 0.5rem !important;
+  border: 1px solid #cccccc;
 }
 
 .pt-2,
